@@ -1,0 +1,47 @@
+﻿<Window x:Class="Book2Notes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Book2Notes"
+        mc:Ignorable="d"
+        Title="Book2Note" Height="695" Width="900">
+    <Grid RenderTransformOrigin="0.497,0.522">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <RadialGradientBrush>
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="#FF09092D" Offset="0"/>
+            </RadialGradientBrush>
+        </Grid.Background>
+        <TextBox IsEnabled="False" HorizontalAlignment="Left" Margin="237,45,0,563" TextWrapping="Wrap" Text="Book2Note Converter&#xA;" Width="459" FontSize="32" FontFamily="Segoe UI Semibold" FontWeight="Normal" FontStyle="Normal" Foreground="#FFC92323" Background="{x:Null}" TextAlignment="Center" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+        <TextBox IsEnabled="False" HorizontalAlignment="Center" Margin="0,126,0,0" TextWrapping="Wrap" Text="version 1.1.0&#xA;" FontSize="21.333" FontFamily="Segoe UI Semibold" FontWeight="Normal" FontStyle="Normal" Foreground="#FFC92323" Background="{x:Null}" TextAlignment="Center" BorderBrush="{x:Null}" VerticalAlignment="Top" d:LayoutOverrides="LeftPosition, RightPosition" SelectionBrush="{x:Null}"/>
+
+        <Image Name="DropImage" Source="Assets/drop.png" OpacityMask="#FFFFF4F4" Height="80" Margin="257,521,277,0" VerticalAlignment="Top" Panel.ZIndex="1" />
+        <Rectangle Stroke="LightGray" StrokeDashArray="3" StrokeThickness="2" Height="255" Margin="0,403,0,0" VerticalAlignment="Top" />
+        
+        <StackPanel Drop="Drag_Drop" AllowDrop="True" Height="255" Margin="0,403,0,0" VerticalAlignment="Top">
+            <StackPanel.Background>
+                <SolidColorBrush Color="#FF444444" Opacity="0.56"/>
+            </StackPanel.Background>
+            <Label Content="Drop File Here." Foreground="#FFC8B9B9" FontSize="21.333" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,56,0,0" />
+            <Label x:Name="FileNameDisplay" Content="Hello" Visibility="Hidden" Foreground="#FFB1B1B1" FontSize="16" Width="421" HorizontalAlignment="Center" />
+        </StackPanel>
+        <Button x:Name="ExecuteButton" Click="OnExecute" Content="Execute" IsEnabled="False" HorizontalAlignment="Left" Height="61" Margin="450,342,0,0" VerticalAlignment="Top" Width="450" FontSize="26.667" Background="#FF6A0E0E" FontWeight="Normal">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="ValidateButton" Click="OnValidate" Content="Validate" IsEnabled="False" HorizontalAlignment="Left" Height="61" Margin="0,342,0,0" VerticalAlignment="Top" Width="450" FontSize="26.667" Background="#FF8F5200" FontWeight="Normal">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+    </Grid>
+</Window>

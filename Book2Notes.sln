@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book2Notes", "Book2Notes\Book2Notes.csproj", "{D2D9EBAC-5500-4F8E-89A3-2A9D7622E692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convertor", "Convertor\Convertor.csproj", "{78596F15-F436-4FBC-BD85-760A2002AE88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2D9EBAC-5500-4F8E-89A3-2A9D7622E692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D9EBAC-5500-4F8E-89A3-2A9D7622E692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D9EBAC-5500-4F8E-89A3-2A9D7622E692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D9EBAC-5500-4F8E-89A3-2A9D7622E692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78596F15-F436-4FBC-BD85-760A2002AE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78596F15-F436-4FBC-BD85-760A2002AE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78596F15-F436-4FBC-BD85-760A2002AE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78596F15-F436-4FBC-BD85-760A2002AE88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5953E80-A9EE-4D46-B7DD-463A64F54BCC}
+	EndGlobalSection
+EndGlobal

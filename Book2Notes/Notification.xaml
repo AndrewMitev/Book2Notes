@@ -1,0 +1,13 @@
+﻿<Window x:Class="Book2Notes.Notification"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Book2Notes"
+        mc:Ignorable="d"
+        Title="Notification" Height="200" Width="700">
+    <Grid>
+        <Image Source="Assets\\error.png" Name="Image" Margin="1,42,532,62" d:LayoutOverrides="VerticalAlignment" Width="167" />
+        <Label Content="sdsadjsabcsancsancksnmcksmclsamc;lsacmsa;nclsanclsanc;lsanclaclamclamc;lsamclamclsam" Name="TextLabel" HorizontalAlignment="Left" Margin="139,50,0,92" Width="551" Height="42"/>
+    </Grid>
+</Window>
