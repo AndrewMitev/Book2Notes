@@ -88,14 +88,14 @@ $Index
 In this example you see that special information is inserted direct after the five digit number.
 This information is interpreted in the following way:
 After 00000 there is no conversion information, so under item 0 nothing happens with the $$$.
-After 00001 there is a <DEL> which means that item 1 AND its content needs to be removed.
+After 00001 there is a DEL which means that item 1 AND its content needs to be removed.
 After 00002 there is <Ge 1:1> which means that $$$ 2 <date-time> is replaced by $$$ Ge 1:1
 After 00003 there is <Ge 1:2> which means that $$$ 3 <date-time> is replaced by $$$ Ge 1:2
 After 00003 there is <CONT>, this line is simply ignored. The reason: 00003 was in the line before as well, but now with a conversion command. So if a five digit number is mentioned for a second time there should be a <CONT> command  (important for error-checking)
 After 00004 there is <Ge 1:3> which means that $$$ 4 <date-time> is replaced by $$$ Ge 1:3
-After 00005 there is a <DEL> which means that item 5 AND its content needs to be removed.
+After 00005 there is a DEL which means that item 5 AND its content needs to be removed.
 After 00006 there is <Ex 2:1> which means that $$$ 6 <date-time> is replaced by $$$ Ex 2:1
-After 00007 there is <RL> (= Remove Label) which means that the line $$$ 7 <date-time> needs to be replaced by a cr lf.
+After 00007 there is RL (= Remove Label) which means that the line $$$ 7 <date-time> needs to be replaced by a cr lf.
 The same as with the CONT command (including error-checking)
 ## Error-checking
 When no errors are found the checking ends with the message “No errors found” and OK to remove the message.
