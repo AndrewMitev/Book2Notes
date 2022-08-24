@@ -3,7 +3,7 @@ WPF windows desktop application that performs validations and editing of .exp - 
 
 ## Purpose of this convertor
 
-Utf-8 tekst files in specific format (here called Book.Exp format) consists of an export of books in digital format taken from a biblesoftware program. The files need to be converted to another format, which is a variant of this Book.Exp format. The converted format does have the name Notes.Exp format.
+Utf-8 text files in specific format (here called Book.Exp format) consists of an export of books in digital format taken from a biblesoftware program. The files need to be converted to another format, which is a variant of this Book.Exp format. The converted format does have the name Notes.Exp format.
 
 ![Alt text](logo.png?raw=true "Logo")
 
